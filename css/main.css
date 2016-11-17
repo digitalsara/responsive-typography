@@ -35,6 +35,14 @@ article header {
   border-bottom: 1px solid #999;
 }
 
+article p {
+  font-weight: normal;
+}
+
+article ol {
+  list-style: decimal;
+}
+
 article header p {
   font-style: italic;
 }
@@ -149,9 +157,8 @@ blockquote {
     margin-left: 60px;
   }
 
-  article p,
-  article ol {
-    font-size: 1.13rem;
+  p, ol {
+    font-size: 1rem;
   }
 
   article h1 {
