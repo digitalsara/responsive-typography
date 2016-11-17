@@ -90,7 +90,7 @@ blockquote {
   }
 
 }
-/*650*/
+
 @media only screen and (min-width: 38em) {
 
   body {
@@ -129,6 +129,30 @@ blockquote {
 
 @media only screen and (min-width: 60em) {
 
+  body {
+    line-height: 1.7;
+    width: 900px;
+    padding: 0 60px;
+    margin-left: 60px;
+  }
 
+  p, ol {
+    font-size: 1.13rem;
+  }
+
+  article h1 {
+    margin-top: 1.3rem;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+  body {
+    line-height: 1.7;
+    width: 900px;
+    padding: 0 100px;
+    margin-left: 60px;
+  }
 
 }
