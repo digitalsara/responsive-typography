@@ -61,17 +61,20 @@ blockquote {
   }
 
   article {
-    padding: 0 .5rem;
+    padding-top: .1rem;
+    padding-left: .5rem;
+    padding-right: .5rem;
+    width: 97%;
   }
 
   article h1 {
     margin-top: .87rem;
-    margin-bottom: -10px;
+    margin-bottom: -8px;
   }
 
   article header p {
     line-height: .35;
-    margin-bottom: 25px;
+    margin-bottom: 22px;
   }
 
   article > p:nth-child(2) {
@@ -80,11 +83,12 @@ blockquote {
   }
 
   article > p:last-child {
-    padding-bottom: 1.5rem;
+    padding-bottom: 1.2rem;
   }
 
   blockquote {
-    margin: 1.2rem 0;
+    margin: 0;
+    width: 100%;
   }
 
   article > p:nth-child(3) {
@@ -112,12 +116,12 @@ blockquote {
   }
 
   p, ol {
-    font-size: 1.1rem;
+    font-size: 1rem;
   }
 
   blockquote {
     margin: 0 auto auto 3rem;
-    padding: .5rem;
+    padding: 0;
   }
 
   blockquote p {
@@ -145,7 +149,8 @@ blockquote {
     margin-left: 60px;
   }
 
-  p, ol {
+  article p,
+  article ol {
     font-size: 1.13rem;
   }
 
