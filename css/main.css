@@ -19,6 +19,7 @@ html {
 }
 
 article {
+  font-family: "Crimson Text", serif;
   max-width: 43em;
 }
 
@@ -46,4 +47,28 @@ blockquote {
 
 .quote {
   color: #999;
+}
+
+@media only screen and (min-width: 20em) {
+
+  article h1 {
+    margin-bottom: -15px;
+  }
+
+  article header p {
+    line-height: 1.4;
+  }
+
+  article > p:last-child {
+    padding-bottom: 1.5rem;
+  }
+
+  blockquote {
+    margin: 0;
+  }
+
+  ol {
+    padding-left: 15px;
+  }
+
 }
